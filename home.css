@@ -1,0 +1,81 @@
+html, body {
+
+    background: linear-gradient(to left top, rgb(0, 0, 0), rgb(73, 69, 69));
+    background-color: #cccccc;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+    width: 98%;
+    height: 50px;
+    top: 0px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.logout {
+    position: relative;
+}
+
+img {
+    height: 100%;
+    width: 10%;
+    border-radius: 20px;
+}
+
+ul lu {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+}
+
+ul account {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
